@@ -6,7 +6,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 const contactRouter = require("./router/exceptionz");
 
-app.use(cors());
+app.use(cors({origin:"*"}));
 
 MongoDB(); 
 
