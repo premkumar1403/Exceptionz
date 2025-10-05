@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        {
+            "source": "/router/(.*)",
+            "destination": "/api/servers.js"
+        }
+    ]
+}
