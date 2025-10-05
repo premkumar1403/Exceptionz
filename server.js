@@ -15,6 +15,8 @@ app.use(express.json());
 
 app.use("/api/v1/exceptionz", contactRouter);
 
-app.listen( process.env.PORT || 5001, () => {
-    console.log("server is running on port number:", process.env.PORT || 5001);
-})   
+// app.listen( process.env.PORT || 5001, () => {
+//     console.log("server is running on port number:", process.env.PORT || 5001);
+// })
+
+module.exports = app;
